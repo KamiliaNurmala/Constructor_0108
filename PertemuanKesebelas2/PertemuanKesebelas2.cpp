@@ -4,7 +4,7 @@ using namespace std;
 
 class mahasiswa {
 private:
-	static int nim;
+	static long long int nim;
 public:
 	int id;
 	string nama;
@@ -17,3 +17,5 @@ public:
 
 	mahasiswa(string pnama) : nama(pnama) { setID(); }
 };
+
+long long int mahasiswa::nim = 20230140108;
