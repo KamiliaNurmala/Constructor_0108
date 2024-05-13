@@ -34,6 +34,8 @@ int main() {
 
 	mahasiswa mhs1("Kamilia Nurmala");
 	mahasiswa mhs2("Sekar Asri");
+
+	mahasiswa::setNim(9); //setting melalui method
 	mahasiswa mhs3("Yowanda Radilla");
 	mahasiswa mhs4("Zahwa Anritia");
 
